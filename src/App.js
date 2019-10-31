@@ -1,9 +1,13 @@
 import React from 'react';
-import './App.css';
+import GameContextProvider from './contexts/GameContext';
+import NavBar from './components/NavBar';
 
 function App() {
   return (
     <div className="App">
+      <GameContextProvider>
+          <NavBar />
+      </GameContextProvider>
     </div>
   );
 }
