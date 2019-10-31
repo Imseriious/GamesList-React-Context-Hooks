@@ -3,7 +3,7 @@ import uuid from 'uuid/v1';
 
 export const GameContext = createContext();
 
-const BookContextProvider = props => {
+const GameContextProvider = props => {
     const { games, setGames } = useState([
         { title: "Call Of Duty", developer: "Infinity Ward", id: 1 },
         { title: "Grand Theft Auto", developer: "Rockstar Games", id: 2 }
@@ -22,4 +22,4 @@ const BookContextProvider = props => {
     )
 }
 
-export default BookContextProvider;
+export default GameContextProvider;
