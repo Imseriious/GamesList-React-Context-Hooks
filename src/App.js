@@ -9,8 +9,8 @@ function App() {
     <div className="App">
       <GameContextProvider>
           <NavBar />
-          <GamesList />
           <AddGameForm />
+          <GamesList />
       </GameContextProvider>
     </div>
   );

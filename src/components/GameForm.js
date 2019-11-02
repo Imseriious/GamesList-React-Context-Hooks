@@ -15,7 +15,7 @@ const AddGameForm = () => {
         <form onSubmit={handleSubmit}>
             <input type="text" placeholder="Game Title" value={title} onChange={e => setTitle(e.target.value)} required/>
             <input type="text" placeholder="Game Developer" value={developer} onChange={e => setDeveloper(e.target.value)} required/>
-            <input type="submit" value="add game"/>
+            <input type="submit" value="Add Game"/>
         </form>
     );
 }
